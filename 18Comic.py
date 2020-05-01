@@ -119,6 +119,5 @@ if __name__ == '__main__':
         elif opt in ['--save', '-s']:
             save_path = arg
     # running
-    html = "https://18comic.vip/album/"
     album = Album(html, save_path)
     album.download()
