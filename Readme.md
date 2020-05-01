@@ -10,13 +10,15 @@ win10 + python3.7(64位)
 
 1. 在18comic.vip找到你想下载的漫画的manga_id（就是网址中的那串编号）
 ![id](https://github.com/StoneForests/MangaSpider/blob/master/readme/id.png?raw=true "id")
-1. 打开CMD:
+2. 打开CMD:
+
 ```shell
 git clone https://github.com/StoneForests/MangaSpider
 pip install -r requirements.txt
 python 18Comic.py -i <manga_id>
 ```
-1. 等待下载完成
+
+3. 等待下载完成
 
 ##已知问题
 1. 一次只能下载一部漫画
